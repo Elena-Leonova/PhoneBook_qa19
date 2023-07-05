@@ -18,13 +18,13 @@ import org.testng.annotations.Test;
         }
 
 
-        @Test
+        @Test(priority = 1)
         public void removeOneContact(){
             int res = app.getContact().removeOneContact();
             Assert.assertEquals(res,-1);
         }
 
-        @Test
+        @Test(priority = 2)
         public void removeAllContacts(){
             app.getContact().removeAllContacts();
             Assert.assertTrue(!app.getContact().isElementPresent(By.xpath("//div[@class='contact-item_card__2SOIM']")));
