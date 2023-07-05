@@ -29,11 +29,11 @@ public class AddNewContactTest extends TestBase {
                 .build();
 
         app.getContact().openContactForm();
-        app.getUser().pause(3000);
+        app.getUser().pause(2000);
         app.getContact().fillContactForm(contact);
-        app.getUser().pause(3000);
+        app.getUser().pause(2000);
         app.getContact().submitContactForm();
-        app.getUser().pause(3000);
+        app.getUser().pause(2000);
 
         Assert.assertTrue(
                 app.getUser().getText(By.xpath("//div[@class='contact-item_card__2SOIM'][last()]//h3")).equals(contact.getPhone())

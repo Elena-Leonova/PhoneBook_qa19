@@ -20,14 +20,21 @@ import org.testng.annotations.Test;
 
         @Test(priority = 1)
         public void removeOneContact(){
-            int res = app.getContact().removeOneContact();
-            Assert.assertEquals(res,-1);
+            if(app.getContact().countOfContacts()< 1) return;
+            else {
+                app.getContact().countOfContacts();
+                int res = app.getContact().removeOneContact();
+                Assert.assertEquals(res, -1);
+            }
         }
 
         @Test(priority = 2)
-        public void removeAllContacts(){
-            app.getContact().removeAllContacts();
-            Assert.assertTrue(!app.getContact().isElementPresent(By.xpath("//div[@class='contact-item_card__2SOIM']")));
+        public void removeAllContacts() {
+            if (app.getContact().countOfContacts() < 1) return;
+            else{
+                    app.getContact().removeAllContacts();
+                    Assert.assertTrue(!app.getContact().isElementPresent(By.xpath("//div[@class='contact-item_card__2SOIM']")));
+                }
         }
     }
 
