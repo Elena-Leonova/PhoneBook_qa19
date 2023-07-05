@@ -35,10 +35,11 @@ public class HelperContact extends HelperBase{
         int countBefore = countOfContacts();
         logger.info("Number of contacts before is " + countBefore);
         String  phone = wd.findElement(By.xpath("//div[@class='contact-item_card__2SOIM']//h3")).getText();
+        pause(2000);
         logger.info("The deleted phone number is " + phone);
         click(By.xpath("//div[@class='contact-item_card__2SOIM']"));
         click(By.xpath("//button[.='Remove']"));
-        pause(5000);
+        pause(2000);
         int countAfter = countOfContacts();
         logger.info("Number of contacts after is " + countAfter);
         return countAfter - countBefore;

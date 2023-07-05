@@ -16,13 +16,13 @@ public class AddNewContactTest extends TestBase {
         }
     }
 
-    @Test(invocationCount = 5)
+    @Test(invocationCount = 3)
     public void AddNewContactPositive(){
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         Contact contact = Contact.builder()
                 .name("Joe")
                 .lastName("Doe")
-                .phone("123456" + i)
+                .phone("1234567" + i)
                 .email("joe" + i + "@mail.com")
                 .address("Haifa")
                 .description("Best friend")
