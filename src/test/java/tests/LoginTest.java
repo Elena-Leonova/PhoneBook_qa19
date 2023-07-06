@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends TestBase{
     //    WebDriver wd;
 
-   @BeforeMethod
+   @BeforeMethod(alwaysRun = true)
     public void precondition() {
         if (app.getUser().isLogged()) {
             app.getUser().logout();
@@ -26,7 +26,7 @@ public class LoginTest extends TestBase{
 //        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 //    }
 
-    @Test
+    @Test(groups = {"smoke", "sanityGroup", "regression"})
     public void loginPositiveTest() {
         String email = "lena.postrash@gmail.com", password = "Mynameislena1!";
         User user = new User().withEmail(email).withPassword(password);
