@@ -3,10 +3,10 @@
 <suite name="ProductionSanityGroups" verbose="1" >
     <groups>
         <run>
-            <include name="sanity"/>
+            <include name="sanityGroup"/>
         </run>
     </groups>
-    <test name="SanityGroup">
+    <test name="Sanity">
         <classes>
             <class name="tests.LoginTest"/>
             <class name="tests.RegistrationTest"/>

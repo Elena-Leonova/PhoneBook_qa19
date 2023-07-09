@@ -13,7 +13,7 @@ public class RegistrationTest extends TestBase {
         }
     }
 
-    @Test(groups = {"sanityGroup", "regression"})
+    @Test(groups = {"sanityGroup", "regressionGroup"})
     public void registrationPositiveTest() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         String email = "lena.postrash" + i + "@gmail.com", password = "Mynameislena1!";

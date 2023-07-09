@@ -7,11 +7,11 @@
             <class name="tests.RegistrationTest"/>
         </classes>
     </test>
-<!--    <test name="Sanity">-->
-<!--        <classes>-->
-<!--            <class name="tests.LoginTest"/>-->
-<!--            <class name="tests.AddNewContactTest"/>-->
-<!--            <class name="tests.RemoveContactTests"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <!--    <test name="Sanity">-->
+    <!--        <classes>-->
+    <!--            <class name="tests.LoginTest"/>-->
+    <!--            <class name="tests.AddNewContactTests"/>-->
+    <!--            <class name="tests.RemoveContactTests"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
 </suite>

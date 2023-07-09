@@ -26,7 +26,7 @@ public class LoginTest extends TestBase{
 //        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 //    }
 
-    @Test(groups = {"smoke", "sanityGroup", "regression"})
+    @Test(groups = {"smokeGroup", "sanityGroup", "regressionGroup"})
     public void loginPositiveTest() {
         String email = "lena.postrash@gmail.com", password = "Mynameislena1!";
         User user = new User().withEmail(email).withPassword(password);
