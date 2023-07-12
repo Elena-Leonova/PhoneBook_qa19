@@ -9,7 +9,8 @@ import org.testng.annotations.Test;
     public class RemoveContactTests extends TestBase {
         @BeforeMethod(alwaysRun = true)
         public void precondition(){
-            if (!app.getUser().isLogged()) {
+            if (app.getUser().isLogged()) {
+                app.getUser().logout();
                 app.getUser().login(new User()
                         .withEmail("lena.postrash@gmail.com")
                         .withPassword("Mynameislena1!"));
