@@ -93,4 +93,16 @@ public class LoginTest extends TestBase{
 
         // Assert
     }
+
+    @Test
+    public void loginNegativeTestWrongPassword() {
+       String email = "lena.postrash@gmail.com", password = "Myhdkodo";
+        User user = new User().withEmail(email).withPassword(password);
+        app.getUser().openLoginRegistrationForm();
+        app.getUser().fillLoginRegistrationForm(user);
+        app.getUser().submitLogin();
+        Assert.assertTrue(app.getUser().isErrorMessageFormatLogin());
+        Assert.assertTrue(app.getUser().isAlertPresent());
+
+    }
 }
