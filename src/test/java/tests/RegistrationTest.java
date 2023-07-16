@@ -1,6 +1,8 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.User;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -42,7 +44,8 @@ public class RegistrationTest extends TestBase {
 //            wd.findElement(By.xpath("//button[2]")).click();
 //
 //            // Assert
-//            Assert.assertTrue(wd.findElements(By.xpath("//a[@class='active']")).size() > 0);
+//           Assert.assertTrue(wd.findElements(By.xpath("//a[@class='active']")).size() > 0);
+           Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//a[@class='active']")));
 //
 //
 //        }
@@ -74,5 +77,13 @@ public class RegistrationTest extends TestBase {
         app.getUser().submitRegistration();
         Assert.assertTrue(app.getUser().isErrorMessageFormatRegistration());
         Assert.assertTrue(app.getUser().isAlertPresent());
+    }
+
+    @Test(dataProvider = "userModelListDTO_CSV", dataProviderClass = MyDataProvider.class)
+    public void registrationPositiveTestDTO(User user){
+        app.getUser().openLoginRegistrationForm();
+        app.getUser().fillLoginRegistrationForm(user);
+        app.getUser().submitRegistration();
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//a[@class='active']")));
     }
 }
