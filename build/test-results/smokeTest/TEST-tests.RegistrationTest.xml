@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RegistrationTest" tests="7" skipped="0" failures="4" errors="0" timestamp="2023-07-20T15:48:15" hostname="ELENA" time="34.12">
+<testsuite name="tests.RegistrationTest" tests="8" skipped="2" failures="2" errors="0" timestamp="2023-07-20T17:30:54" hostname="ELENA" time="67.359">
   <properties/>
-  <testcase name="registrationNegativeTestWrongEmail" classname="tests.RegistrationTest" time="1.608"/>
-  <testcase name="registrationNegativeTestWrongPassword" classname="tests.RegistrationTest" time="1.101"/>
-  <testcase name="registrationPositiveTest" classname="tests.RegistrationTest" time="1.092"/>
-  <testcase name="registrationPositiveTestDTO[0](models.User@7eae3764)" classname="tests.RegistrationTest" time="1.096">
-    <failure message="org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: &#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 43980, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: 
+  <testcase name="registrationNegativeTestWrongEmail" classname="tests.RegistrationTest" time="5.787"/>
+  <testcase name="registrationNegativeTestWrongPassword" classname="tests.RegistrationTest" time="2.989"/>
+  <testcase name="registrationPositiveTest" classname="tests.RegistrationTest" time="1.197"/>
+  <testcase name="registrationPositiveTestDTO[0](models.User@7e744f43)" classname="tests.RegistrationTest" time="9.417">
+    <failure message="org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: &#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 792, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f16d283b-8ceb-40a4-95e9-b693b2e0782c" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: 
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 43980, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 792, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f16d283b-8ceb-40a4-95e9-b693b2e0782c
 	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -79,14 +79,15 @@ Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="registrationPositiveTestDTO[1](models.User@5300cac)" classname="tests.RegistrationTest" time="1.285">
-    <failure message="org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: &#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 43980, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7&#10;*** Element info: {Using=xpath, value=//a[@class='active']}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: 
+  <testcase name="registrationPositiveTestDTO[1](models.User@673919a7)" classname="tests.RegistrationTest" time="1.227"/>
+  <testcase name="precondition" classname="tests.RegistrationTest" time="26.223">
+    <failure message="org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: &#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 792, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f16d283b-8ceb-40a4-95e9-b693b2e0782c&#10;*** Element info: {Using=xpath, value=//*[text()='Sign Out']}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: 
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 43980, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7
-*** Element info: {Using=xpath, value=//a[@class='active']}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 792, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f16d283b-8ceb-40a4-95e9-b693b2e0782c
+*** Element info: {Using=xpath, value=//*[text()='Sign Out']}
 	at app//manager.MyListener.onException(MyListener.java:37)
 	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -98,13 +99,18 @@ Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7
 	at app//com.sun.proxy.$Proxy15.findElements(Unknown Source)
 	at app//org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
 	at app//manager.HelperBase.isElementPresent(HelperBase.java:38)
-	at app//tests.RegistrationTest.registrationPositiveTestDTO(RegistrationTest.java:87)
+	at app//manager.HelperUser.isLogged(HelperUser.java:45)
+	at app//tests.RegistrationTest.precondition(RegistrationTest.java:13)
 	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
 	at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at app//org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at app//org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at app//org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at app//org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at app//org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at app//org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 	at app//org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 	at app//org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at app//org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -147,141 +153,11 @@ Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="registrationPositiveTestDTO[2](models.User@733aa9d8)" classname="tests.RegistrationTest" time="1.245">
-    <failure message="org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: &#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 43980, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7&#10;*** Element info: {Using=xpath, value=//a[@class='active']}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 43980, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7
-*** Element info: {Using=xpath, value=//a[@class='active']}
-	at app//manager.MyListener.onException(MyListener.java:37)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
-	at app//org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at app//com.sun.proxy.$Proxy14.onException(Unknown Source)
-	at app//org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at app//com.sun.proxy.$Proxy15.findElements(Unknown Source)
-	at app//org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
-	at app//manager.HelperBase.isElementPresent(HelperBase.java:38)
-	at app//tests.RegistrationTest.registrationPositiveTestDTO(RegistrationTest.java:87)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
-	at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at app//org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at app//org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at app//org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at app//org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at app//org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at app//org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at app//org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base@11.0.16.1/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at app//org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at app//org.testng.TestRunner.run(TestRunner.java:596)
-	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at app//org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at app//org.testng.TestNG.runSuites(TestNG.java:1063)
-	at app//org.testng.TestNG.run(TestNG.java:1031)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:145)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:92)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</failure>
+  <testcase name="registrationPositiveTestDTO" classname="tests.RegistrationTest" time="0.0">
+    <skipped/>
   </testcase>
-  <testcase name="registrationPositiveTestDTO[3](models.User@788ddc1f)" classname="tests.RegistrationTest" time="1.26">
-    <failure message="org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: &#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 43980, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7&#10;*** Element info: {Using=xpath, value=//a[@class='active']}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ELENA', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 43980, moz:profile: C:\Users\lenap\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: db4ba779-23d0-430c-8bf4-a41813a1d7a7
-*** Element info: {Using=xpath, value=//a[@class='active']}
-	at app//manager.MyListener.onException(MyListener.java:37)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
-	at app//org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at app//com.sun.proxy.$Proxy14.onException(Unknown Source)
-	at app//org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at app//com.sun.proxy.$Proxy15.findElements(Unknown Source)
-	at app//org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
-	at app//manager.HelperBase.isElementPresent(HelperBase.java:38)
-	at app//tests.RegistrationTest.registrationPositiveTestDTO(RegistrationTest.java:87)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
-	at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at app//org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at app//org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at app//org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at app//org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at app//org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at app//org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at app//org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base@11.0.16.1/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at app//org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at app//org.testng.TestRunner.run(TestRunner.java:596)
-	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at app//org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at app//org.testng.TestNG.runSuites(TestNG.java:1063)
-	at app//org.testng.TestNG.run(TestNG.java:1031)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:145)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:92)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</failure>
+  <testcase name="registrationPositiveTestDTO" classname="tests.RegistrationTest" time="0.0">
+    <skipped/>
   </testcase>
   <system-out><![CDATA[Wrong email or password format
             Email must contains one @ and minimum 2 symbols after last dot
@@ -296,12 +172,5 @@ Wrong email or password format
             Password must contain at least one digit!
             Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
 ]]></system-out>
-  <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
