@@ -30,7 +30,9 @@ public class ApplicationManager {
     }
 
     public void init() throws IOException {
-        properties.load(new FileReader(new File("src/test/resources/prod_config.properties")));
+        String target = System.getProperty("target", "pre_prod_config");
+       // properties.load(new FileReader(new File("src/test/resources/prod_config.properties")));
+        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
         //wd = new ChromeDriver();
         if(browser.equals(BrowserType.CHROME)){
             wd = new EventFiringWebDriver(new ChromeDriver());
@@ -41,7 +43,8 @@ public class ApplicationManager {
         }
         wd.register(new MyListener());
        // wd.navigate().to("https://telranedu.web.app/home");
-        wd.navigate().to(properties.getProperty( "web.baseURL"));
+        wd.navigate().to(properties.getProperty( "web.baseURl"));
+
         //wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         user = new HelperUser(wd);
@@ -58,5 +61,13 @@ public class ApplicationManager {
 
     public HelperContact getContact() {
         return contact;
+    }
+
+    public String getEmail(){
+        return properties.getProperty("web.email");
+    }
+
+    public String getPassword(){
+        return properties.getProperty("web.password");
     }
 }

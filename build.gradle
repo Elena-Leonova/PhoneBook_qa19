@@ -26,8 +26,10 @@ test {
     useTestNG()
 }
 
-task smokeTest(type: Test){
+task smokeTest  (type: Test){
     useTestNG(){
+
+
 
         def groups = System.getProperty('groups')
         if(groups != null){
@@ -47,5 +49,21 @@ task smokeTest(type: Test){
     }
     if(project.hasProperty('browser')){
         systemProperty 'browser', "${browser}"
+    }
+
+
+}
+
+task test_props(type: Test){
+    useTestNG(){
+        def suite = System.getProperty('suite','')
+        if(suite.equals('login')){
+            suites 'src/test/resources/login.xml'
+        } else {
+            suites 'src/test/resources/testng.xml'
+        }
+    }
+    if(project.hasProperty('target')){
+        systemProperty 'target', "${target}"
     }
 }
